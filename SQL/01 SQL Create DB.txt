@@ -1,0 +1,14 @@
+CREATE DATABASE DB_BIBLIOTECA
+ON PRIMARY(
+NAME=DB_BIBLIOTECA,
+FILENAME='C:\SQL\DB_BIBLIOTECA.MDF',
+SIZE=6MB,
+MAXSIZE=15MB,
+FILEGROWTH=10%
+)
+_________________________________________________________
+
+--USE DB_BIBLIOTECA
+_________________________________________________________
+
+SP_HELPDB DB_BIBLIOTECA 
